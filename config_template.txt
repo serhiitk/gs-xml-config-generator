@@ -1,0 +1,99 @@
+###############################################################################################
+####            Configuration Template Exmaple for testing the converting tool             ####
+###############################################################################################
+####################################################################
+## Example P values                                               ##
+####################################################################
+
+# Account 1:
+# Account Active. 0 - No, 1 - Yes. Default value is 0
+# Number: 0, 1
+P271 =
+
+# Account Name
+P270 =
+
+# SIP Server
+P47 =
+
+# SIP User ID
+P35 =
+
+# SIP Authenticate ID
+P36 =
+
+# SIP Authenticate Password
+P34 =
+
+# Name (Display Name, e.g., John Doe)
+P3 =
+
+# Account 2:
+# Account Active. 0 - No, 1 - Yes. Default value is 0
+# Number: 0, 1
+P401 =
+
+# Account Name
+P417 =
+
+# SIP Server
+P402 =
+
+# SIP User ID
+P404 =
+
+# SIP Authenticate ID
+P405 =
+
+# SIP Authenticate Password
+P406 =
+
+# Name (Display Name, e.g., John Doe)
+P407 =
+
+
+### IP Address. ###
+### Note: Please change Subnet mask, Gateway, DNS Servers to your network. GS_XML_Generator will only configure the IP address. ###
+
+#IP Address Mode. 0 - DHCP, 1 - Static IP, 2 - PPPoE
+#Number: 0,1,2
+#Mandatory
+#Reboot required
+P8=1
+
+#IP Address. Ignore if DHCP or PPPoE is used
+P9=
+P10=
+P11=
+P12=
+
+#Subnet mask. Ignore if DHCP or PPPoE is used
+P13=
+P14=
+P15=
+P16=
+
+#Gateway. Ignore if DHCP or PPPoE is used
+P17=192
+P18=168
+P19=1
+P20=1
+
+#DNS server 1. Ignore if DHCP or PPPoE is used
+P21=8
+P22=8
+P23=8
+P24=8
+
+#DNS server 2. Ignore if DHCP or PPPoE is used
+P25=8
+P26=8
+P27=4
+P28=4
+
+####################################################################
+## Example P values End                                           ##
+####################################################################
+
+### For more P values, please download full template file at: http://www.grandstream.com/sites/default/files/Resources/config-template.zip ###
+### This tool will only change the field of SIP accounts, IP address from the CSV file or from the manual settings, all other settings will be populated to XML as the same in TXT template. ###
